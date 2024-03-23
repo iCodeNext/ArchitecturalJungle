@@ -3,18 +3,12 @@ using NLayer.Domain;
 
 namespace NLayer.Services;
 
-public class UserService
+public class UserService(ApplicationDbContext dbContext)
 {
-    private readonly ApplicationDbContext _dbContext;
-
-    public UserService(ApplicationDbContext dbContext)
-    {
-        _dbContext = dbContext;
-    }
+    private readonly ApplicationDbContext _dbContext = dbContext;
 
     public void Insert(User user)
     {
-
         _dbContext.Users.Add(user);
         _dbContext.SaveChanges();
     }
