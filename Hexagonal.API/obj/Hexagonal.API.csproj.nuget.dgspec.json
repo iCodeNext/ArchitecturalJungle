@@ -1,0 +1,205 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\iCodeNext\\GithubRepo\\dotnet\\iCodeNext\\Hexagonal.API\\Hexagonal.API.csproj": {}
+  },
+  "projects": {
+    "D:\\iCodeNext\\GithubRepo\\dotnet\\iCodeNext\\Hexagonal.API\\Hexagonal.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\iCodeNext\\GithubRepo\\dotnet\\iCodeNext\\Hexagonal.API\\Hexagonal.API.csproj",
+        "projectName": "Hexagonal.API",
+        "projectPath": "D:\\iCodeNext\\GithubRepo\\dotnet\\iCodeNext\\Hexagonal.API\\Hexagonal.API.csproj",
+        "packagesPath": "C:\\Users\\Mohammad\\.nuget\\packages\\",
+        "outputPath": "D:\\iCodeNext\\GithubRepo\\dotnet\\iCodeNext\\Hexagonal.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Mohammad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\iCodeNext\\GithubRepo\\dotnet\\iCodeNext\\Hexagonal.Application\\Hexagonal.Application.csproj": {
+                "projectPath": "D:\\iCodeNext\\GithubRepo\\dotnet\\iCodeNext\\Hexagonal.Application\\Hexagonal.Application.csproj"
+              },
+              "D:\\iCodeNext\\GithubRepo\\dotnet\\iCodeNext\\Hexagonal.DataAccess\\Hexagonal.DataAccess.csproj": {
+                "projectPath": "D:\\iCodeNext\\GithubRepo\\dotnet\\iCodeNext\\Hexagonal.DataAccess\\Hexagonal.DataAccess.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\iCodeNext\\GithubRepo\\dotnet\\iCodeNext\\Hexagonal.Application\\Hexagonal.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\iCodeNext\\GithubRepo\\dotnet\\iCodeNext\\Hexagonal.Application\\Hexagonal.Application.csproj",
+        "projectName": "Hexagonal.Application",
+        "projectPath": "D:\\iCodeNext\\GithubRepo\\dotnet\\iCodeNext\\Hexagonal.Application\\Hexagonal.Application.csproj",
+        "packagesPath": "C:\\Users\\Mohammad\\.nuget\\packages\\",
+        "outputPath": "D:\\iCodeNext\\GithubRepo\\dotnet\\iCodeNext\\Hexagonal.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Mohammad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\iCodeNext\\GithubRepo\\dotnet\\iCodeNext\\Hexagonal.DataAccess\\Hexagonal.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\iCodeNext\\GithubRepo\\dotnet\\iCodeNext\\Hexagonal.DataAccess\\Hexagonal.DataAccess.csproj",
+        "projectName": "Hexagonal.DataAccess",
+        "projectPath": "D:\\iCodeNext\\GithubRepo\\dotnet\\iCodeNext\\Hexagonal.DataAccess\\Hexagonal.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\Mohammad\\.nuget\\packages\\",
+        "outputPath": "D:\\iCodeNext\\GithubRepo\\dotnet\\iCodeNext\\Hexagonal.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Mohammad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\iCodeNext\\GithubRepo\\dotnet\\iCodeNext\\Hexagonal.Application\\Hexagonal.Application.csproj": {
+                "projectPath": "D:\\iCodeNext\\GithubRepo\\dotnet\\iCodeNext\\Hexagonal.Application\\Hexagonal.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,190 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\iCodeNext\\GithubRepo\\dotnet\\iCodeNext\\Onion.Infrastructure\\Onion.Infrastructure.csproj": {}
+  },
+  "projects": {
+    "D:\\iCodeNext\\GithubRepo\\dotnet\\iCodeNext\\Onion.Domain\\Onion.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\iCodeNext\\GithubRepo\\dotnet\\iCodeNext\\Onion.Domain\\Onion.Domain.csproj",
+        "projectName": "Onion.Domain",
+        "projectPath": "D:\\iCodeNext\\GithubRepo\\dotnet\\iCodeNext\\Onion.Domain\\Onion.Domain.csproj",
+        "packagesPath": "C:\\Users\\Mohammad\\.nuget\\packages\\",
+        "outputPath": "D:\\iCodeNext\\GithubRepo\\dotnet\\iCodeNext\\Onion.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Mohammad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\iCodeNext\\GithubRepo\\dotnet\\iCodeNext\\Onion.Infrastructure\\Onion.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\iCodeNext\\GithubRepo\\dotnet\\iCodeNext\\Onion.Infrastructure\\Onion.Infrastructure.csproj",
+        "projectName": "Onion.Infrastructure",
+        "projectPath": "D:\\iCodeNext\\GithubRepo\\dotnet\\iCodeNext\\Onion.Infrastructure\\Onion.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Mohammad\\.nuget\\packages\\",
+        "outputPath": "D:\\iCodeNext\\GithubRepo\\dotnet\\iCodeNext\\Onion.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Mohammad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\iCodeNext\\GithubRepo\\dotnet\\iCodeNext\\Onion.Domain\\Onion.Domain.csproj": {
+                "projectPath": "D:\\iCodeNext\\GithubRepo\\dotnet\\iCodeNext\\Onion.Domain\\Onion.Domain.csproj"
+              },
+              "D:\\iCodeNext\\GithubRepo\\dotnet\\iCodeNext\\Onion.Services\\Onion.Services.csproj": {
+                "projectPath": "D:\\iCodeNext\\GithubRepo\\dotnet\\iCodeNext\\Onion.Services\\Onion.Services.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\iCodeNext\\GithubRepo\\dotnet\\iCodeNext\\Onion.Services\\Onion.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\iCodeNext\\GithubRepo\\dotnet\\iCodeNext\\Onion.Services\\Onion.Services.csproj",
+        "projectName": "Onion.Services",
+        "projectPath": "D:\\iCodeNext\\GithubRepo\\dotnet\\iCodeNext\\Onion.Services\\Onion.Services.csproj",
+        "packagesPath": "C:\\Users\\Mohammad\\.nuget\\packages\\",
+        "outputPath": "D:\\iCodeNext\\GithubRepo\\dotnet\\iCodeNext\\Onion.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Mohammad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\iCodeNext\\GithubRepo\\dotnet\\iCodeNext\\Onion.Domain\\Onion.Domain.csproj": {
+                "projectPath": "D:\\iCodeNext\\GithubRepo\\dotnet\\iCodeNext\\Onion.Domain\\Onion.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

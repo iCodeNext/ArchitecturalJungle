@@ -1,0 +1,7 @@
+D:\iCodeNext\GithubRepo\dotnet\iCodeNext\Clean.Presentation\obj\Debug\net8.0\Clean.Presentation.csproj.AssemblyReference.cache
+D:\iCodeNext\GithubRepo\dotnet\iCodeNext\Clean.Presentation\obj\Debug\net8.0\Clean.Presentation.GeneratedMSBuildEditorConfig.editorconfig
+D:\iCodeNext\GithubRepo\dotnet\iCodeNext\Clean.Presentation\obj\Debug\net8.0\Clean.Presentation.AssemblyInfoInputs.cache
+D:\iCodeNext\GithubRepo\dotnet\iCodeNext\Clean.Presentation\obj\Debug\net8.0\Clean.Presentation.AssemblyInfo.cs
+D:\iCodeNext\GithubRepo\dotnet\iCodeNext\Clean.Presentation\obj\Debug\net8.0\Clean.Presentation.csproj.CoreCompileInputs.cache
+D:\iCodeNext\GithubRepo\dotnet\iCodeNext\Clean.Presentation\obj\Debug\net8.0\Clean.Presentation.MvcApplicationPartsAssemblyInfo.cache
+D:\iCodeNext\GithubRepo\dotnet\iCodeNext\Clean.Presentation\obj\Debug\net8.0\Clean.Presentation.sourcelink.json

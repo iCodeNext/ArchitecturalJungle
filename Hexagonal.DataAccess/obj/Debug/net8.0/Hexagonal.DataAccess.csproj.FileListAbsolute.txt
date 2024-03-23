@@ -1,0 +1,16 @@
+D:\iCodeNext\GithubRepo\dotnet\iCodeNext\Hexagonal.DataAccess\bin\Debug\net8.0\Hexagonal.DataAccess.deps.json
+D:\iCodeNext\GithubRepo\dotnet\iCodeNext\Hexagonal.DataAccess\bin\Debug\net8.0\Hexagonal.DataAccess.dll
+D:\iCodeNext\GithubRepo\dotnet\iCodeNext\Hexagonal.DataAccess\bin\Debug\net8.0\Hexagonal.DataAccess.pdb
+D:\iCodeNext\GithubRepo\dotnet\iCodeNext\Hexagonal.DataAccess\bin\Debug\net8.0\Hexagonal.Application.dll
+D:\iCodeNext\GithubRepo\dotnet\iCodeNext\Hexagonal.DataAccess\bin\Debug\net8.0\Hexagonal.Application.pdb
+D:\iCodeNext\GithubRepo\dotnet\iCodeNext\Hexagonal.DataAccess\obj\Debug\net8.0\Hexagonal.DataAccess.csproj.AssemblyReference.cache
+D:\iCodeNext\GithubRepo\dotnet\iCodeNext\Hexagonal.DataAccess\obj\Debug\net8.0\Hexagonal.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\iCodeNext\GithubRepo\dotnet\iCodeNext\Hexagonal.DataAccess\obj\Debug\net8.0\Hexagonal.DataAccess.AssemblyInfoInputs.cache
+D:\iCodeNext\GithubRepo\dotnet\iCodeNext\Hexagonal.DataAccess\obj\Debug\net8.0\Hexagonal.DataAccess.AssemblyInfo.cs
+D:\iCodeNext\GithubRepo\dotnet\iCodeNext\Hexagonal.DataAccess\obj\Debug\net8.0\Hexagonal.DataAccess.csproj.CoreCompileInputs.cache
+D:\iCodeNext\GithubRepo\dotnet\iCodeNext\Hexagonal.DataAccess\obj\Debug\net8.0\Hexagonal.DataAccess.sourcelink.json
+D:\iCodeNext\GithubRepo\dotnet\iCodeNext\Hexagonal.DataAccess\obj\Debug\net8.0\Hexagonal.DataAccess.csproj.CopyComplete
+D:\iCodeNext\GithubRepo\dotnet\iCodeNext\Hexagonal.DataAccess\obj\Debug\net8.0\Hexagonal.DataAccess.dll
+D:\iCodeNext\GithubRepo\dotnet\iCodeNext\Hexagonal.DataAccess\obj\Debug\net8.0\refint\Hexagonal.DataAccess.dll
+D:\iCodeNext\GithubRepo\dotnet\iCodeNext\Hexagonal.DataAccess\obj\Debug\net8.0\Hexagonal.DataAccess.pdb
+D:\iCodeNext\GithubRepo\dotnet\iCodeNext\Hexagonal.DataAccess\obj\Debug\net8.0\ref\Hexagonal.DataAccess.dll
