@@ -3,19 +3,9 @@ using Onion.Domain.Interfaces;
 using Onion.Services.Context;
 
 namespace Onion.Services.Implementation;
-public class UserServices : IUserServices
+public class UserServices(IApplicationDbContext dbContext) : IUserServices
 {
-    private readonly IApplicationDbContext _dbContext;
-
-    public UserServices(IApplicationDbContext dbContext)
-    {
-        _dbContext = dbContext;
-    }
-
-    //public void Delete(User user)
-    //{
-    //    _dbContext.Users.Remove(user);
-    //}
+    private readonly IApplicationDbContext _dbContext = dbContext;
 
     public User FindById(int id)
     {

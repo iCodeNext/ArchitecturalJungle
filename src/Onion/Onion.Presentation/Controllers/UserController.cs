@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Onion.Domain.Entities;
 using Onion.Application.Interfaces;
+using Onion.Domain.Interfaces;
 
 namespace Hexagonal.API.Controllers;
 public class UserController : Controller
