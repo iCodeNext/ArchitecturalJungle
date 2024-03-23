@@ -17,6 +17,7 @@ public class Result
         Message = message;
     }
 
+
     public static Result Failure(string msg)
          => new(msg);
 
