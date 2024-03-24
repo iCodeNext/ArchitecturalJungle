@@ -8,6 +8,6 @@ public class OrderServices(IApplicationDbContext dbContext)
 
     public void Insert(Order order)
     {
-        _dbContext.Order.Add(order);
+        _dbContext.Orders.Add(order);
     }
 }
