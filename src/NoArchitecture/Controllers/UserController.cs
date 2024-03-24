@@ -1,15 +1,18 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using NoArchitecture.Context;
 using NoArchitecture.Domain;
 using NoArchitecture.Services;
 
 namespace NoArchitecture.Controllers;
-public class UserController(UserService userService) : Controller
+public class UserController(ApplicationDbContext dbContext) : Controller
 {
-    private readonly UserService _userService = userService;
+    private readonly ApplicationDbContext _dbContext = dbContext;
 
     public IActionResult Insert(User model)
     {
-        _userService.Insert(model);
+        // dfasdfd
+        _dbContext.Users.Add(model);
+        _dbContext.SaveChanges();
         return View();
     }
 }
