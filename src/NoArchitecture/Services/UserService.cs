@@ -8,8 +8,8 @@ public class UserService(ApplicationDbContext dbContext)
 
     public void Insert(User user)
     {
-        // dfasdfd
         _dbContext.Users.Add(user);
         _dbContext.SaveChanges();
     }
 }
+
