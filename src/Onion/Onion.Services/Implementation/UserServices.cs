@@ -1,9 +1,8 @@
 ﻿using Onion.Domain.Entities;
-using Onion.Domain.Interfaces;
 using Onion.Services.Context;
 
 namespace Onion.Services.Implementation;
-public class UserServices(IApplicationDbContext dbContext) : IUserServices
+public class UserServices(IApplicationDbContext dbContext)
 {
     private readonly IApplicationDbContext _dbContext = dbContext;
 
