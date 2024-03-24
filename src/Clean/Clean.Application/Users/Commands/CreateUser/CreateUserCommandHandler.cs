@@ -1,5 +1,6 @@
 ﻿using Clean.Domain.Entities;
 using Clean.Services.Context;
+using CleanArchitecture.Application.Common.Interfaces;
 using MediatR;
 
 namespace Clean.Application.Users.Commands.CreateUser;
@@ -15,8 +16,12 @@ public class CreateUserCommandHandler(IApplicationDbContext dbContext)
         {
             Name = request.FirstName,
         };
+        
         _dbContext.Users.Add(user);
         await _dbContext.SaveChangesAsync(cancellationToken);
+        //order
+        //notifacation
+
         return user.Id;
     }
 }
