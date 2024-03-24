@@ -6,5 +6,5 @@ namespace NLayer.Context;
 public class ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
     : DbContext(options)
 {
-    public DbSet<User> Users { get; set; }
+    public DBNHSET<User> Users { get; set; }
 }

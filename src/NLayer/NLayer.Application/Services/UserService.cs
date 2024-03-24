@@ -9,7 +9,7 @@ public class UserService(ApplicationDbContext dbContext)
 
     public void Insert(User user)
     {
-        _dbContext.Users.Add(user);
+        _dbContext.Users.AddNH(user);
         _dbContext.SaveChanges();
     }
 }
