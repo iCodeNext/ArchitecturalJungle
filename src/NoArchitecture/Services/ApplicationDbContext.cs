@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using NoArchitecture.Domain;
+using NoArchitecture.Controllers;
 
-namespace NoArchitecture.Context;
+namespace NoArchitecture.Services;
 
 public class ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
     : DbContext(options)

@@ -1,4 +1,4 @@
-﻿namespace NoArchitecture.Domain;
+﻿namespace NoArchitecture.Controllers;
 
 public class User
 {

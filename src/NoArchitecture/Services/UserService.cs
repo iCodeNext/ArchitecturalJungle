@@ -1,5 +1,4 @@
-﻿using NoArchitecture.Context;
-using NoArchitecture.Domain;
+﻿using NoArchitecture.Controllers;
 
 namespace NoArchitecture.Services;
 
