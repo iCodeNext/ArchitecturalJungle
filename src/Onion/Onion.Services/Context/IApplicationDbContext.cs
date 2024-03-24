@@ -6,6 +6,6 @@ namespace Onion.Services.Context;
 public interface IApplicationDbContext
 {
     DbSet<User> Users { get; }
-
+    DbSet<Order> Orders { get; }
     int SaveChanges();
 }
