@@ -3,7 +3,8 @@ using Hexagonal.Application.Context;
 
 namespace Hexagonal.Application.Services;
 
-public class UserService(IApplicationDbContext dbContext, ISmsProvider smsProvider)
+public class UserService(IApplicationDbContext dbContext,
+                         ISmsProvider smsProvider)
 {
     private readonly IApplicationDbContext _dbContext = dbContext;
     private readonly ISmsProvider _smsProvider = smsProvider;
