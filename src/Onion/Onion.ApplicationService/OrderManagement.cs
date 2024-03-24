@@ -1,30 +1,20 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Onion.Domain.Entities;
+using Onion.Services.Implementation;
 
 namespace Onion.ApplicationService;
-public class OrderManagement
+public class OrderManagement(UserServices userServices,
+    OrderServices orderServices) : IOrderManagement
 {
-    public void AddOrder(int id)
+    public void AddOrder(int id, string name)
     {
-        //User fetch -> domainService User
-        //Order add -> domain Service Order
-        //Notification send -> domain service notification
-    }
-
-    public void UpdateOrder()
-    {
-        //User fetch -> domainService User
-        //Order add -> domain Service Order
-        //Notification send -> domain service notification
-    }
-
-    public void RemoveOrder()
-    {
-        //User fetch -> domainService User
-        //Order add -> domain Service Order
-        //Notification send -> domain service notification
+        var user = userServices.FindById(id);
+        if (user is not null)
+        {
+            orderServices.Insert(new Order
+            {
+                Amount = 1000,
+                Name = name
+            });
+        }
     }
 }

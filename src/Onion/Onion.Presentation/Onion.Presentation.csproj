@@ -14,7 +14,7 @@
   <ItemGroup>
     <ProjectReference Include="..\Onion.Domain\Onion.Domain.csproj" />
     <ProjectReference Include="..\Onion.Infrastructure\Onion.Infrastructure.csproj" />
-    <ProjectReference Include="..\Onion.Services\Onion.Services.csproj" />
+    <ProjectReference Include="..\Onion.Services\Onion.DomainServices.csproj" />
   </ItemGroup>
 
 </Project>
