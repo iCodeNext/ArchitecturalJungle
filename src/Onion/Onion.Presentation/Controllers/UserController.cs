@@ -3,7 +3,7 @@ using Onion.ApplicationService;
 using Onion.Domain.Entities;
 
 namespace Hexagonal.API.Controllers;
-public class UserController(IOrderManagement orderManagement) : Controller
+public class UserController(OrderManagement orderManagement) : Controller
 {
     private readonly IOrderManagement _orderManagement = orderManagement;
 
